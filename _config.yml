@@ -18,11 +18,11 @@ tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-l
 theme_toggle: true # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
 social:
 #  dribbble: https://dribbble.com/liuweigeek # Add your Dribbble handle
-  facebook: https://www.facebook.com/liuweigeek # Add your Facebook handle
+  facebook: liuweigeek # Add your Facebook handle
 #  flickr: # Add your Flickr handle
-  github: https://github.com/liuweigeek # Add your GitHub handle
+  github: liuweigeek # Add your GitHub handle
 #  linkedin: # Add your LinkedIn handle
-  twitter: https://twitter.com/liuweigeek # Add your Twitter handle
+  twitter: liuweigeek # Add your Twitter handle
   email: liuweigeek@outlook.com # Add your Email address
 #  bitcoin: # Add your Bitcoin link or address
 #  ethereum: # Add your Ethereum link or address
@@ -33,7 +33,7 @@ social:
 #  tumblr: # Add your Tumblr handle
 #  bitbucket: # Add your Bitbucket handle
 #  docker: # Add your Docker Hub handle
-  instagram: https://www.instagram.com/liuweigeek # Add your Instagram handle
+  instagram: liuweigeek # Add your Instagram handle
 #  keybase: # Add your Keybase handle
 #  medium: # Add your Medium handle
 #  spotify: # Add your Spotify handle
