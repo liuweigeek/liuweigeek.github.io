@@ -1,8 +1,11 @@
 machine:
+  environment:
+    USER_NAME: liuweigeek
+    USER_EMAIL: liuweigeek@163.com
   ruby:
-    version: 2.5.1
+    version: 2.4.1
   node:
-    version: 8.0.0
+    version: 8.2.1
 
 dependencies:
   pre:
@@ -11,5 +14,10 @@ dependencies:
 test:
   post:
     - bundle exec jekyll build
-    - rm -R ./_site/node_modules
-    - bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml"
+    - bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./bin/automated
