@@ -3,8 +3,9 @@
 blog_theme: dark # Or use light
 name: Scott Lau
 paginate: 25
-url: https://liuweigeek.github.io
+url: https://www.liuweigeek.com
 
+markdown: redcarpet
 
 # Optional settings
 
@@ -14,7 +15,7 @@ ga_analytics: UA-28631876-6 # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
-tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
+tag_nav_enabled: true # Change to true if you wish to show an additional 'tag-list' navigation below the header
 theme_toggle: true # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
 social:
   #  dribbble: https://dribbble.com/liuweigeek # Add your Dribbble handle
@@ -23,7 +24,6 @@ social:
   twitter: liuweigeek # Add your Twitter handle
   github: liuweigeek # Add your GitHub handle
   #  linkedin: # Add your LinkedIn handle
-
   email: liuweigeek@outlook.com # Add your Email address
   #  docker: # Add your Docker Hub handle
   #  stackoverflow: # Add your Stack Overflow ID number

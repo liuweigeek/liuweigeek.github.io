@@ -1,4 +1,4 @@
 ---
 slug: life
-name: 一般人生
+name: 一半人生
 ---
