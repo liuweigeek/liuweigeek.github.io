@@ -5,7 +5,7 @@ name: Scott Lau
 paginate: 25
 url: https://www.liuweigeek.com
 
-markdown: redcarpet
+# markdown: redcarpet
 
 # Optional settings
 
