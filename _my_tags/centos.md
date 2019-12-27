@@ -1,0 +1,4 @@
+---
+slug: centos
+name: CentOS
+---
