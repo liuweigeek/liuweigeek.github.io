@@ -1,0 +1,15 @@
+<script src="{{ site.url }}/assets/js/vendor.js"></script>
+
+{% unless site.local_fonts %}
+<script src="{{ site.url }}/assets/js/webfonts.js"></script>
+{% endunless %}
+
+{% if site.scrollappear_enabled %}
+<script src="{{ site.url }}/assets/js/scrollappear.js"></script>
+{% endif %}
+
+<script src="{{ site.url }}/assets/js/application.js"></script>
+
+{% if site.theme_toggle == true %}
+<script src="{{ site.url }}/assets/js/themetoggle.js"></script>
+{% endif %}
