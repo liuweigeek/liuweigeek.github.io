@@ -21,12 +21,12 @@
     <meta property="og:image" content="{{ page.thumb_image }}">
     <meta name="twitter:image" content="{{ page.thumb_image }}">
     {% else %}
-    <meta property="og:image" content="{{ site.url }}/assets/{{ page.thumb_image }}">
-    <meta name="twitter:image" content="{{ site.url }}/asset/{{ page.thumb_image }}">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/{{ page.thumb_image }}">
+    <meta name="twitter:image" content="{{ site.baseurl }}/asset/{{ page.thumb_image }}">
     {% endif %}
     {% else %}
-    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.jpg">
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-image.jpg">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/images/og-image.jpg">
+    <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/og-image.jpg">
     {% endif %}
 
     <link href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" rel="alternate"
