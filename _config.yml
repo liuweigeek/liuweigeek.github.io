@@ -3,7 +3,7 @@
 blog_theme: dark # Or use light
 name: Scott Lau
 paginate: 25
-url: https://www.liuweigeek.com
+url: https://liuweigeek.github.io
 
 # markdown: redcarpet
 
@@ -30,16 +30,6 @@ social:
 
 # Important settings (change at own risk)
 
-assets:
-  plugins:
-    css: { autoprefixer: { } }
-    img: { optim: { } }
-  source_maps: false
-  sources:
-    - _assets/icons
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/yarn
 collections:
   my_tags:
     output: true
@@ -60,7 +50,6 @@ exclude:
   - package-lock.json
   - README.md
   - vendor/
-  - yarn.lock
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
